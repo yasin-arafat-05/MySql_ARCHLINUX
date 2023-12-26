@@ -59,7 +59,7 @@ EXIT;
 
 <br>
 
-# __________How Many Users Are In MY MYSQL SERVER__________
+# __________ How Many Users Are In `Your` MYSQL SERVER __________
 
 <br>
 
@@ -87,3 +87,23 @@ DESCRIBE user;
 ```sql
 SELECT user FROM user;
 ```
+
+- All this can done by one single command
+
+```sql
+SELECT user FROM mysql.user;
+```
+
+
+<br>
+
+# __________ Create A New User __________
+
+<br>
+
+- First we need to know who can create a new user?
+    - Administrative user can create a new user (Who has all database  rights)
+    - Or a User Having `CREATE USER` and `GRANT` privileges can also create a new user
+
+
+
