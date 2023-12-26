@@ -1,4 +1,8 @@
-# ---------------RUN MYSQL COMMAND ON ARCH LINUX--------------
+<br>
+
+# __________ RUN MYSQL COMMAND ON ARCH LINUX __________
+
+<br>
 
 ### Installation:
 
@@ -53,4 +57,33 @@ Remember to exit the MySQL shell when you are done:
 EXIT;
 ```
 
-These are the basic steps to install MySQL on Arch Linux and run MySQL commands. Keep in mind that the specifics may vary slightly depending on the version of MySQL available in the Arch Linux repositories. Always refer to the Arch Linux documentation or MySQL documentation for the most up-to-date information.
+<br>
+
+# __________How Many Users Are In MY MYSQL SERVER__________
+
+<br>
+
+There is a Default database name `mysql`. To check how many users are available in your server check the 
+table name `user` in `mysql` database.
+
+- Follow This command
+
+```sql
+SHOW DATABASES;
+```
+
+```sql
+USE mysql;
+```
+
+```sql
+SHOW TABLES;
+```
+
+```sql
+DESCRIBE user;
+```
+
+```sql
+SELECT user FROM user;
+```
