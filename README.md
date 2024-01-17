@@ -59,7 +59,7 @@ EXIT;
 
 <br>
 
-# _____ How Many Users Are In `Your` MYSQL SERVER _____
+# How Many Users Are In `Your` MYSQL SERVER
 
 <br>
 
